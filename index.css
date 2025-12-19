@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    /* background-image: url(logo2.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover; */
+    background-color: rgb(61, 9, 61);
+}
+
+header{
+    background-color: rgba(208, 58, 183, 0.834);
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+}
+.top-name{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    gap: 20px;
+    color: rgba(245, 245, 220, 0.801);
+}
+.para{
+    background-color: thistle;
+    width: 750px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    font-family: Roboto;
+}
+p{
+    color: silver;
+}
+.logo{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+nav li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: beige;
+    font-family: Roboto;
+}
+main{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav li a:hover, a:focus{
+    background-color: rgba(211, 214, 214, 0.377);
+    border-radius: 5px;
+    padding: 2px;
+    opacity: 0.7;
+}
+nav li a:visited{
+    color: rgb(41, 24, 220);
+}
+h2{
+    text-align: center;
+    font-size: 3.5rem;
+    color: violet;
+    font-family: Roboto;
+}
+h3{
+    color: rgb(72, 62, 218);
+    font-family: poppins;
+}
+.crochet{
+    justify-content: space-between;
+    /* padding: 100px; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    height: max-content;
+    width: 190vh;
+}
+.container{
+    border-radius: 10px;
+    background-color: rgb(246, 52, 201);
+    height: max-content;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    height: 250px;
+    width: 200px;
+}
